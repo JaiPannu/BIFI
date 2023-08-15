@@ -11,13 +11,13 @@ function Header() {
           </span>
         </div>
         <div className="flex items-center justify-end text-sm sm:text-xl gap-4 sm:gap-10">
-          <div className="flex items-center justify-center  hover:text-gold  font-bold transition duration-200">
+          <div className="flex items-center justify-center  hover:text-gold  font-bold transition duration-200 cursor-pointer">
             <Link href="/">Home</Link>
           </div>
-          <div className="flex items-center justify-center  hover:text-gold  font-bold transition duration-200">
+          <div className="flex items-center justify-center  hover:text-gold  font-bold transition duration-200 cursor-pointer">
             <Link href="/events">Events</Link>
           </div>
-          <div className="flex items-center justify-center  hover:text-gold  font-bold transition duration-200">
+          <div className="flex items-center justify-center  hover:text-gold  font-bold transition duration-200 cursor-pointer">
             <Link href="/resources">Resources</Link>
           </div>
         </div>

@@ -15,7 +15,7 @@ const config: Config = {
         "slate-gray": "#708090", // background
         "navy-blue": "#001F3F", //headlines
         gold: "#FFD700", // call to action
-        "Emerald-green": "#007F4F", //sub background
+        "emerald-green": "#007F4F", //sub background
       },
       fontFamily: {
         montserrat: ["var(--font-montserrat)"],

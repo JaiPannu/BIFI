@@ -40,6 +40,7 @@ export default function Home() {
       },
       { duration: 6, repeat: Infinity, ease: "easeInOut" }
     );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
