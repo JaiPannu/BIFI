@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat, Lato } from "next/font/google";
@@ -30,9 +31,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lato.className} ${montserrat.variable} bg-slate-gray`}
+        className={`${lato.className} ${montserrat.variable} bg-black text-white`}
       >
-        {children}
+        <div className="w-full h-full max-w-screen-2xl mx-auto relative">
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );

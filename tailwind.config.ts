@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        pattern: "url('/images/pattern.svg')",
+      },
       colors: {
         "slate-gray": "#708090", // background
         "navy-blue": "#001F3F", //headlines
